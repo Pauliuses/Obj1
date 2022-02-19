@@ -1,2 +1,2 @@
-# Paulius-v0.1
+V0.1
 Objektinis programavimas
