@@ -1,2 +1,3 @@
-V0.1
-Objektinis programavimas
+# V0.1 Objektinis programavimas
+
+## Užduoties tikslai
