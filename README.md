@@ -1,8 +1,7 @@
-# V0.1 Objektinis programavimas
+# Pirma užduotis v0.1 Objektinis programavimas
 
 ## Užduoties tikslai
 
-# Pirma užduotis v0.1
 1. Programos pradžioje vartotojas įveda kiek yra studentų.
 2. Vartotojas gali pasirinkti ar galutiniai studento balai bus išvesti vidurkio pavidalu (pagal formulę: 0.4 * vidurkis + 0.6 * egzaminas) ar medianos pavidalu.
 3. Yra prašoma vartotojo suvesti studento vardą ir pavardę.
