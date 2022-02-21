@@ -9,3 +9,4 @@
 5. Vartotojas gali pažymius ir egzamino įvertinimą suvesti ranka arba pažymiai ir egzamino įvertinimas gali būti sugeneruoti automatiškai.
 6. Generuojant pažymius ir egzamino įvertinimą automatiškai, vartotojas ekrane mato, kokie įvertinimai buvo sugeneruoti automatiški.
 7. Suvedus visus turimus duomenis, atskirose eilutėse yra pateikiami studento vardas ir pavardė bei įvertinimas pasirinktu pavidalu (vidurkiu arba madiana).
+8. Užduotis realizuota naudojant masyvus ir vektorius.
