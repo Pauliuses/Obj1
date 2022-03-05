@@ -11,3 +11,12 @@
 7. Suvedus visus turimus duomenis, atskirose eilutėse yra pateikiami studento vardas ir pavardė bei įvertinimas pasirinktu pavidalu (vidurkiu arba madiana).
 
 ### Užduotis realizuota naudojant masyvus (*Su_Masyvais.cpp*) ir vektorius (*Su_Vektoriais.cpp*).
+
+# Antra užduotis V0.2 Objektinis programavimas
+
+## Užduoties tikslai
+
+1. Programos naudotojas gali pasirinkti ar duomenis apie studentus nori suvesti ranka ar juos nuskaityti iš tekstinio failo *kursiokai.txt*
+2. Suskaičiuoti rezultatai išvedami į tekstinį failą *rezultatai.txt* tuo atveju jeigu vartotojas pasirinko duomenis skaityti iš tekstinio failo
+3. Išvedant rezultatus duomenys yra surūšiuoti pagal vardus arba pavardes (programos naudotojas gali pats pasirinkti rūšiavimo būdą)
+4. Išvedami razultatai yra gražiai išlygiuoti
