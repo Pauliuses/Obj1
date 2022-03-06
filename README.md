@@ -10,7 +10,7 @@
 6. Generuojant pažymius ir egzamino įvertinimą automatiškai, vartotojas ekrane mato, kokie įvertinimai buvo sugeneruoti automatiški.
 7. Suvedus visus turimus duomenis, atskirose eilutėse yra pateikiami studento vardas ir pavardė bei įvertinimas pasirinktu pavidalu (vidurkiu arba madiana).
 
-### Užduotis realizuota naudojant masyvus (*Su_Masyvais.cpp*) ir vektorius (*Su_Vektoriais.cpp*).
+### Užduoties failai: (*Su_Masyvais.cpp*) ir vektorius (*Su_Vektoriais.cpp*).
 
 # Antra užduotis V0.2 Objektinis programavimas
 
@@ -21,9 +21,13 @@
 3. Išvedant rezultatus duomenys yra surūšiuoti pagal vardus arba pavardes (programos naudotojas gali pats pasirinkti rūšiavimo būdą)
 4. Išvedami razultatai yra gražiai išlygiuoti
 
+### Užduoties failai: *v0.2.cpp*
+
 # Trečia užduotis V0.2 Objektinis programavimas
 
 ## Užduoties tikslai
 
 1. Funkcijos, nauji duomenų tipai perkelti į antraštinius (angl. *header* (.h)) failus
 2. Kur tikslinga buvo panaudotas išimčių valdymas (angl. *Exception Handling*)
+
+### Užduoties failai: *funkc.cpp, head.h, main.cpp, makefile.mak*
