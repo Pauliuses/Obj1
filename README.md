@@ -20,3 +20,10 @@
 2. Suskaičiuoti rezultatai išvedami į tekstinį failą *rezultatai.txt* tuo atveju jeigu vartotojas pasirinko duomenis skaityti iš tekstinio failo
 3. Išvedant rezultatus duomenys yra surūšiuoti pagal vardus arba pavardes (programos naudotojas gali pats pasirinkti rūšiavimo būdą)
 4. Išvedami razultatai yra gražiai išlygiuoti
+
+# Trečia užduotis V0.2 Objektinis programavimas
+
+## Užduoties tikslai
+
+1. Funkcijos, nauji duomenų tipai perkelti į antraštinius (angl. *header* (.h)) failus
+2. Kur tikslinga buvo panaudotas išimčių valdymas (angl. *Exception Handling*)
