@@ -23,7 +23,7 @@
 
 ### Užduoties failai: *v0.2.cpp*
 
-# Trečia užduotis V0.2 Objektinis programavimas
+# Trečia užduotis V0.3 Objektinis programavimas
 
 ## Užduoties tikslai
 
@@ -31,3 +31,18 @@
 2. Kur tikslinga buvo panaudotas išimčių valdymas (angl. *Exception Handling*)
 
 ### Užduoties failai: *funkc.cpp, head.h, main.cpp, makefile.mak*
+
+# Ketvirta užduotis v0.4 Objektinis programavimas
+
+## Užduoties tikslai
+1. Programa sukuria 5 atsitiktinius stutentų sąrašus iš 1 000, 10 000, 100 000, 1 000 000, 10 000 000 įrašų. Vartotojas pats pasirenka pažymių kiekį
+2. Programa sūrušiuoja studentus į du atskirus failus pagal galutinį balą: **<5** - vargšai, **>=5** - šaunuoliai
+3. Atliekama programos greičio analizė. Matuojama kiek laiko užtruko žemiau išvardinti žingsniai:
+- Duomenų failų generavimas
+- Failo nuskaitymas
+- Studentų suskirstymas į vargšus ir šaunuolius
+- Šaunuolių spausdinimas į failą
+- Vargšų spausdinimas į failą
+- Visas programos veikimas
+
+## Užduoties failai:  *_funkc.cpp, head.h, main.cpp, makefile.mak_*
