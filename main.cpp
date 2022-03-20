@@ -94,7 +94,9 @@ int main()
             cout << "Suskirstymas/surusiavimas uztruko: " << time.count() << endl;
         }
         else {
+            int b = 0; 
             FinalResult(list, vm);
+            list.erase(list.end());
             start = hrClock::now();
             Groups(list, Nlist);
             end = hrClock::now();
@@ -126,9 +128,10 @@ int main()
         }
         fr << endl;
 
+        list.erase(list.begin());
         for (auto& a : list) {
             double number = a.galutinis * 0.4 + 0.6 * a.egz;
-            fr << std::setw(20) << std::left << a.vardas << std::setw(20) << a.pavarde << std::setw(20) << std::setprecision(3) << number << endl;
+            fr << std::setw(20) << std::left << a.vardas << std::setw(20) << a.pavarde << std::setw(20) << std::fixed << std::setprecision(3) << number << endl;
         }
     }
 
