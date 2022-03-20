@@ -69,7 +69,7 @@ int main()
             }
         } while (badFile);
     }
-    sorting = InputNumber("Jeigu norite, kad galutinis rezultatas butu surusiuotas pagal varda spauskite - 1, pagal pavarde - 0, pagal galutini bala - 2: ");
+    sorting = InputNumber("Jeigu norite, kad galutinis rezultatas butu surusiuotas pagal varda spauskite - 1, pagal pavarde - 0, pagal galutini bala(skaitant is failo) - 2: ");
     vm = InputBool("Jeigu norite kad galutiniai balai butu isvesti vidurkio forma spauskite - 1, medianos forma - 0: ");
 
     if (PrintType) {
