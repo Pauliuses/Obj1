@@ -74,10 +74,10 @@ void CreateFile(int lines, int ND)
     std::ofstream fr(fileName.str());
 
     fr << setw(20) << std::left << "Vardas" << setw(20) << "Pavarde";
-
     for (int i = 1; i <= ND; i++)
         fr << "ND" << std::setw(8) << std::left << i;
     fr << "Egz." << endl;
+    fr <<endl;
 
     int last = 0, mark;
     for (int i = 1; i <= lines; i++) {
@@ -87,6 +87,7 @@ void CreateFile(int lines, int ND)
             fr << setw(10) << std::left << mark;
             last = mark;
         }
+        if(lines != i)
         fr <<endl;
     }
 }
@@ -162,9 +163,9 @@ void FinalResult(vector<data>& list, bool AvgMed)
 {
     for (auto& a : list)
         if (AvgMed == 1)
-            a.galutinis = AverageGrade(a.paz);
+            a.galutinis = AverageGrade(a.paz) * 0.4 + a.egz * 0.6;
         else
-            a.galutinis = MedianGrade(a.paz);
+            a.galutinis = MedianGrade(a.paz) * 0.4 + a.egz * 0.6;
 }
 void Output(vector<data>& list, string filename, int vm)
 {
