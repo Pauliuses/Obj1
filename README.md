@@ -52,6 +52,7 @@
 ## Užduoties tikslas
 ### Išmatuoti patobulintos v0.4 realizacijos veikimo spartą priklausomai nuo naudojamų trijų skirtingų tipų konteinerių: _vector, deque, list_
 
+
 ### Naudojamo kompiuterio specifikacijos: Intel Core i5-6500 @ 3.20GHz, 16 GB DDR4 2133 MHz, 525 GB SSD
 
 ## Duomenų skaitymas iš failų
