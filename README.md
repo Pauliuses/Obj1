@@ -46,3 +46,28 @@
 - Visas programos veikimas
 
 ## Užduoties failai:  *_funkc.cpp, head.h, main.cpp, makefile.mak_*
+
+# Penkta užduotis v0.5 Objektinis programavimas
+
+## Užduoties tikslas
+### Išmatuoti patobulintos v0.4 realizacijos veikimo spartą priklausomai nuo naudojamų trijų skirtingų tipų konteinerių: _vector, deque, list_
+
+### Naudojamo kompiuterio specifikacijos: Intel Core i5-6500 @ 3.20GHz, 16 GB DDR4 2133 MHz, 525 GB SSD
+
+## Duomenų skaitymas iš failų
+| **Duomenų kiekis**  | **vector** | **deque** | **list** |
+| ----------------------- | ----------- | ------------| ------- |
+| 1000  | 0.0079789s. | 0.0069819s. | 0.0079778s. |
+| 10000  | 0.053857s. | 0.0549577s. | 0.0957233s. |
+| 100000 | 0.544153s. | 0.498141s. | 0.689025s. |
+| 1000000 | 4.97045s. | 4.95757s. | 6.71128s. |
+| 10000000 | 50.3335s. | 50.2679s. | 65.9313s. |
+
+## Studentų rūšiavimas į dvi grupes
+| **Duomenų kiekis**  | **vector** | **deque** | **list** |
+| ----------------------- | ----------- | ------------| ------- |
+| 1000  | 0.0019945s.  | 0.0039907s. | 0.0019921s. |
+| 10000  | 0.0179521s. | 0.0408917s. | 0.0189493s. |
+| 100000 | 0.253805s. | 0.562527s. | 0.302193s. |
+| 1000000 | 2.91583s. | 7.04963s. | 3.24117s. |
+| 10000000 | 36.2914s. | 90.6556s. | 32.518s. |
