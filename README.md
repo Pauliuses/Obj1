@@ -74,3 +74,29 @@
 | 10000000 | 31.9865s. | 93.3986s. | 31.8051s. |
 
 ## Užduoties folderiai: _Deque_, _List_, _Vector_
+
+# Paskutinė užduotis v1.0 Objektinis programavimas
+
+## Užduoties tikslas
+
+### Bendro konteinerio kur saugomi studentai išskaidymas į du naujus to paties tipo konteinerius, efektyvumo tyrimas. Tokiu būdu tas pats studentas yra dvejuose konteineriuose: bendrame ir viename iš suskaidytų.
+
+## Studentų rūšiavimas į 2 naujai sukurtus to paties tipo konteinerius:
+| **Duomenų kiekis**  | **vector** | **deque** | **list** |
+| ----------------------- | ----------- | ------------| ------- |
+| 1000  | 0.0019913s.  | 0.0039892s. | 0.0019943s. |
+| 10000  | 0.0209755s. | 0.0449074s. | 0.029948s. |
+| 100000 | 0.221408s. | 0.484742s. | 0.286828s. |
+| 1000000 | 2.72139s. | 6.0443s. | 3.15776s. |
+| 10000000 | 33.5345s. | 82.845s. | 36.4049s. |
+
+## Studentų rūšiavimas į 1 naujai sukurtą konteinerį:
+| **Duomenų kiekis**  | **vector** | **deque** | **list** |
+| ----------------------- | ----------- | ------------| ------- |
+| 1000  | 0.0009983s.  | 0.0039898s. | 0.0019945s. |
+| 10000  | 0.0179216s. | 0.0459045s. | 0.02494s. |
+| 100000 | 0.208446s. | 0.507247s. | 0.233968s. |
+| 1000000 | 2.61171s. | 6.38282s. | 2.72248s. |
+| 10000000 | 31.9865s. | 93.3986s. | 31.8051s. |
+
+## Užduoties folderiai: _Deque_, _List_, _Vector_
